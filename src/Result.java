@@ -13,7 +13,7 @@ public class Result {
         System.out.println("Player's final score: " + this.playerScore);
         System.out.println("Dealer's final score: " + this.dealerScore);
         if(this.dealerScore >= 22 && this.playerScore >= 22){
-            System.out.println("Both player & dealer lose!");
+            System.out.println("Dealer wins!");
         }else if(this.playerScore >= 22){
             System.out.println("Dealer wins!");
         }else if(this.dealerScore >= 22){
